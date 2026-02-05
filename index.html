@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smooth Coding Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="top-nav">
+        <h1>Smooth Coding Studio</h1>
+        <a href="#playground">Start Learning</a>
+      </nav>
+      <div class="hero-content">
+        <p class="tag">Design. Build. Learn in Every Language.</p>
+        <h2>The smooth way to learn coding, build designs, and practice daily.</h2>
+        <p>
+          Follow guided lessons, explore modern design workflows, and write code in
+          any language with a focused learning playground.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="cards" id="features">
+        <article>
+          <h3>Smooth Coding Paths</h3>
+          <p>
+            Beginner to advanced tracks with bite-sized lessons, challenges, and
+            project checkpoints.
+          </p>
+        </article>
+        <article>
+          <h3>Design-Making Lab</h3>
+          <p>
+            Learn UI/UX principles, typography, spacing systems, and component design
+            while building real interfaces.
+          </p>
+        </article>
+        <article>
+          <h3>All-Language Learning</h3>
+          <p>
+            Practice JavaScript, Python, Java, C, C++, Rust, Go, PHP, Swift, Kotlin,
+            and more in one unified learning experience.
+          </p>
+        </article>
+      </section>
+
+      <section class="languages" id="languages">
+        <div class="section-head">
+          <h3>Language Explorer</h3>
+          <p>Pick a language to load a starter snippet and learning goals.</p>
+        </div>
+
+        <label for="languageSelect">Choose a language</label>
+        <select id="languageSelect" aria-label="Choose coding language"></select>
+
+        <div class="language-details">
+          <h4 id="languageTitle"></h4>
+          <p id="languageGoal"></p>
+        </div>
+      </section>
+
+      <section class="playground" id="playground">
+        <div class="section-head">
+          <h3>Code & Learn Playground</h3>
+          <p>
+            Write notes and code while following your lesson. Export your work as a
+            file and continue anytime.
+          </p>
+        </div>
+
+        <textarea id="editor" spellcheck="false"></textarea>
+        <div class="actions">
+          <button id="copyBtn" type="button">Copy Code</button>
+          <button id="downloadBtn" type="button">Download File</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made for smooth coding, design making, and coding lessons in every language.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
